@@ -1,0 +1,12 @@
+{
+  "name": "scdev",
+  "version": "0.0.0",
+  "description": "Common tooling recipes for Stone Campus",
+  "main": "index.js",
+  "repository": "https://github.com/stonecampus/scdev",
+  "author": "stone <stone@mytraces.net>",
+  "license": "MIT",
+  "dependencies": {
+    "sclib": "^0.0.1"
+  }
+}
