@@ -1,13 +1,13 @@
-'use strict'
+'use strict';
 
 exports.setJsdomGlobal = function (win) {
   if (typeof window === 'undefined') {
-    global.window = win
-    global.document = win.document
-    global.navigator = { userAgent: 'node.js' }
-    global.localStorage = require('./local-storage')()
+    global.window = win;
+    global.document = win.document;
+    global.navigator = { userAgent: 'node.js' };
+    global.localStorage = require('./local-storage')();
   }
-}
+};
 
 // https://github.com/airbnb/enzyme/blob/master/docs/guides/jsdom.md
 /*
@@ -54,4 +54,3 @@ function copyProps(src, target) {
 }
 copyProps(document.defaultView, global);
 */
-

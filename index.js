@@ -1,3 +1,3 @@
-'use strict'
+'use strict';
 
-module.exports = require('sclib')
+module.exports = require('sclib');
